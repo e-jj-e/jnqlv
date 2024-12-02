@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+  background-color: white;
+}
+header .header-container {
+  margin: 0 auto;
+  width: 72.5%;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  justify-content: space-between;
+}
+header .header-container .header-logo {
+  width: 100%;
+  margin-top: 15px;
+}
+header .header-container .header-logo h1 {
+  font-family: montserrat;
+  font-size: 42px;
+}
+header .header-container .navigation-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
+}
+header .header-container .navigation {
+  margin-top: 30px;
+  width: 100%;
+}
+header .header-container .navigation ul.navigation-list {
+  /*width: 100%;*/
+  display: flex;
+  flex-direction: row;
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: justify;
+  justify-content: space-between;
+  color: black;
+  text-transform: lowercase;
+}
+header .header-container .navigation ul.navigation-list :hover {
+  cursor: pointer;
+}
+header .header-container .navigation ul.navigation-list li {
+  list-style-type: none;
+}
+header .header-container .navigation ul.navigation-list li a {
+  color: black;
+  text-decoration: none;
+}
+header .header-container .user-navigation {
+  margin-top: 30px;
+  width: 100%;
+}
+header .header-container .user-navigation ul.user-navigation-list {
+  /*width: 100%;*/
+  display: flex;
+  flex-direction: row;
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: justify;
+  justify-content: space-evenly;
+  color: black;
+  text-transform: lowercase;
+}
+header .header-container .user-navigation ul.user-navigation-list :hover {
+  cursor: pointer;
+}
+header .header-container .user-navigation ul.user-navigation-list li {
+  list-style-type: none;
+}
+header .header-container .user-navigation ul.user-navigation-list li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: black;
+}
+main section {
+  padding: 300px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main section .welcome {
+  font-size: 14px;
+  font-family: helvetica;
+  color: aliceblue;
+  text-align: center;
+  text-transform: lowercase;
+}
+main section .slider {
+  /*height: 200px;*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+main section .slider p {
+  color: aliceblue;
+  font-family: montserrat;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  font-stretch: ultra-expanded;
+}
+main section .slider ul.stretched-brand-name {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  color: aliceblue;
+  font-family: montserrat;
+  font-size: 74px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+main section .slider ul.stretched-brand-name li {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+}
+footer .footer-container {
+  width: 72.5%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  text-align: justify;
+  justify-content: space-between;
+}
+footer .footer-container .footer-logo {
+  padding: 20px 0;
+}
+footer .footer-container .footer-logo h2 {
+  font-family: montserrat;
+  font-size: 42px;
+}
+footer .footer-container .terms-policy {
+  padding: 30px 0 20px 0;
+  font-family: helvetica;
+  font-size: 14px;
+  color: black;
+  line-height: 1.5em;
+  /* text-transform: lowercase; */
+}
+footer .footer-container .terms-policy ul :hover {
+  cursor: pointer;
+}
+footer .footer-container .terms-policy ul li {
+  list-style-type: none;
+}
+footer .footer-container .terms-policy ul li a {
+  color: black;
+  text-decoration: none;
+}
+footer .footer-container .faq-shipping {
+  padding: 30px 0 20px 0;
+  font-family: helvetica;
+  font-size: 14px;
+  color: black;
+  line-height: 1.5em;
+  /* text-transform: lowercase; */
+}
+footer .footer-container .faq-shipping ul :hover {
+  cursor: pointer;
+}
+footer .footer-container .faq-shipping ul li {
+  list-style-type: none;
+}
+footer .footer-container .faq-shipping ul li a {
+  color: black;
+  text-decoration: none;
+}
+footer .footer-container .footer-contacts {
+  padding: 30px 0 20px 0;
+  font-family: helvetica;
+  font-size: 14px;
+  color: black;
+  text-transform: none;
+  line-height: 1.5em;
+  /* text-transform: lowercase; */
+}
+footer .footer-container .footer-contacts ul :hover {
+  cursor: pointer;
+}
+footer .footer-container .footer-contacts ul li {
+  list-style-type: none;
+}
+footer .footer-container .footer-contacts ul li a {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

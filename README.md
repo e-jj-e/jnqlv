@@ -1,3 +1,3 @@
 # jnqlv
 
-https://e-jj-e.github.io/jnqlv/main
+https://e-jj-e.github.io/jnqlv/main/
